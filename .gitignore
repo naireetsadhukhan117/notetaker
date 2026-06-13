@@ -1,0 +1,44 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+
+# Backend
+backend/venv/
+backend/.venv/
+backend/env/
+**/__pycache__/
+*.pyc
+*.pyo
+backend/*.egg-info/
+.pytest_cache/
+.coverage
+backend/htmlcov/
+
+# Backend data and temporary files
+backend/temp_uploads/
+backend/chroma_db/
+backend/assets/
+backend/*.db
+backend/.env
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
